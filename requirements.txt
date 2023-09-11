@@ -1,0 +1,8 @@
+hopsworks==3.2.0rc0
+geopy
+python-dotenv
+streamlit
+streamlit-folium
+joblib
+plotly
+nbconvert

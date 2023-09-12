@@ -17,7 +17,7 @@ image = modal.Image.debian_slim().pip_install(["hopsworks", "geopy"])
 
 
 def features():
-    target_url='https://repo.hops.works/dev/jdowling/target_cities.json'
+    target_url='/target_cities.json'
     response = urlopen(target_url)
     target_cities = json.loads(response.read())
     
